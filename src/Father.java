@@ -41,7 +41,7 @@ public class Father extends GrandFather{
         return "Age: " + getAge() +
                 "\nName: " + getName() +
                 "\nHabits: " + getHabits() +
-                "\nHouse: " + getHouse() +
+                "\nHouse: " + house.getMicrodistrict() +
                 "\nCar name: " + this.carName +
                 "\nJob: " + this.job;
     }
